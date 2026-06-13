@@ -1,6 +1,11 @@
 {
   "name": "@workspace/fix-it",
   "version": "0.0.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
   "private": true,
   "type": "module",
   "scripts": {
